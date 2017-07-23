@@ -1,8 +1,8 @@
-
 filebeat.prospectors:
 - input_type: log
   paths:
+    #Path that log files are mounted onto in the container
     - /mnt/log/*.log
 
 output.logstash:
-  hosts: ['snew-wiki.ftc.hpeswlab.net:5000']
+  hosts: ['localhost:5000']
