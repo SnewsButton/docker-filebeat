@@ -6,7 +6,7 @@ Structural inspiration derived from [deviantony/docker-elk](https://github.com/d
 
 Image used is the offical Elastic Filebeat image.
 
-** Important: ** The Docker-Filebeat only looks within its own container, in order to ship foreign logs, they must be mounted into the container. This is done through `docker-compose.yml`.
+**Important:** The Docker-Filebeat only looks within its own container, in order to ship foreign logs, they must be mounted into the container. This is done through `docker-compose.yml`.
 ## Requirements
 
 1. Install Docker version 1.10.0+
